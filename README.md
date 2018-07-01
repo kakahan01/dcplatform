@@ -4,6 +4,10 @@
 
 A command handler for Discord.JS
 
+Installing: ```bash
+git clone https://github.com/kakahan01/dcplatform.git
+```
+
 Edit/Add/Remove JS files in commands folder to create, edit or delete commands.
 Example commands are shown.
 
@@ -14,6 +18,10 @@ If you want to make a new bot (advanced), edit run.js.
 ![Türkçe](./tr.png)
 
 Discord.JS için bir komut altyapısı.
+
+İndirme: ```bash
+git clone https://github.com/kakahan01/dcplatform.git
+```
 
 Commands klasöründeki JS dosyalarını düzenleyerek/ekleyerek/kaldırarak komut ekleyip, düzenleyip, kaldırabilirsiniz.
 Örnek komutlar içindedir.
