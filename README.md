@@ -4,7 +4,8 @@
 
 A command handler for Discord.JS
 
-Installing: ```bash
+Installing: 
+```bash
 git clone https://github.com/kakahan01/dcplatform.git
 ```
 
@@ -19,7 +20,8 @@ If you want to make a new bot (advanced), edit run.js.
 
 Discord.JS için bir komut altyapısı.
 
-İndirme: ```bash
+İndirme: 
+```bash
 git clone https://github.com/kakahan01/dcplatform.git
 ```
 
