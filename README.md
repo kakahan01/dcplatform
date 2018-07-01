@@ -11,7 +11,7 @@ Change config.json to your config.
 
 If you want to make a new bot (advanced), edit run.js.
 
-![Türkçe](https://pasteboard.co/Hst2qTZ.png)
+![Türkçe](./tr.png)
 
 Discord.JS için bir komut altyapısı.
 
