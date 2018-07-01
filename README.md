@@ -1,4 +1,4 @@
-# dcplatform
+# Discord Platform
 
 ![English](http://stecherandhorowitz.org/wp-content/uploads/2011/06/british-flag-15.gif)
 
