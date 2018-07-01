@@ -1,6 +1,6 @@
 # dcplatform
 
-![English](https://qph.fs.quoracdn.net/main-qimg-d8eb70a860f256af252740a30ed41cf7)
+![English](http://stecherandhorowitz.org/wp-content/uploads/2011/06/british-flag-15.gif)
 
 A command handler for Discord.JS
 
@@ -11,7 +11,7 @@ Change config.json to your config.
 
 If you want to make a new bot (advanced), edit run.js.
 
-![Türkçe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1200px-Flag_of_Turkey.svg.png)
+![Türkçe](https://imgur.com/mdq7IQX)
 
 Discord.JS için bir komut altyapısı.
 
