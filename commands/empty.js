@@ -13,5 +13,6 @@ module.exports.run = async (client) => {
 
 
 module.exports.config = {
-    disable: null
+    disable: null,
+    group: null
 };
