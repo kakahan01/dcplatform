@@ -8,7 +8,7 @@ module.exports.argRun = async (client, message) => {
     let helpMessage = "**Commands:**\n";
     let groups = [];
 
-    const dcPlatform = new dc(client);
+    const dcPlatform = new dc.DCPlatform(client);
 
     dcPlatform.getAllCommands().array.forEach(cmd => {
         if (cmd.config.group) {

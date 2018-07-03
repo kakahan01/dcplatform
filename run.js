@@ -11,13 +11,36 @@ client.on('message', async (message) => {
     if (!message.content.startsWith(prefix)) return;
     if (message.author.bot) return;
 
-    const dcPlatform = new dc(client);
+    const dcPlatform = new dc.DCPlatform(client);
 
     var args = message.content.slice(prefix.length).split(" ");
     const command = args[0];
     
     dcPlatform.run(command, message);
 });
+
+/*
+if you want to set groups;
+
+client.on('message', async (message) => {
+    const prefix = config["prefix"];
+
+    if (!message.content.startsWith(prefix)) return;
+    if (message.author.bot) return;
+
+    const group = new dc.Group().set("Owner", [
+        "exenable",
+        "exdisable"
+    ]),;
+
+    const dcPlatform = new dc.DCPlatform(client);
+
+    var args = message.content.slice(prefix.length).split(" ");
+    const command = args[0];
+    
+    dcPlatform.run(command, message);
+});
+*/
 
 client.on('ready', async () => {
     client.user.setUsername(config["botname"]);

@@ -5,7 +5,7 @@ const config = require('../config.json');
 module.exports.argRun = async (client, message) => {
     if (module.exports.config.disable) return;
 
-    const dcPlatform = new dc(client);
+    const dcPlatform = new dc.DCPlatform(client);
 
     var args = message.content.slice(config["prefix"].length).split(" ");
 
